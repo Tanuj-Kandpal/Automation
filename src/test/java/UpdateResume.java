@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class UpdateResume {
 
-    @Test(groups = {"applyUpdate"})
+    @Test(description = "Automation Test case for Naukri.com")
     public void UpdateResume() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
