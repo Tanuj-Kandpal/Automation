@@ -29,7 +29,7 @@ public class UpdateResume {
         WebDriver driver = new ChromeDriver(options);
 
         driver.manage().window().maximize();
-        driver.get("https://www.naukri.com/nlogin/login?err=1");
+        driver.get("https://www.google.com/nlogin/login?err=1");
         WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(10));
         w.until((ExpectedCondition<Boolean>) wd ->
                 ((JavascriptExecutor) wd).executeScript("return document.readyState").equals("complete"));
